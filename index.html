@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- Базовые мета-теги (ПР3 и ПР4) -->
     <meta charset="UTF-8">
-    <title>Практическая работа № 3 — Учебный сайт wudroow</title>
-    <meta name="description" content="Учебный сайт на GitHub Pages для выполнения практической работы №3 по веб-мастерингу. Настроены robots.txt, sitemap.xml и SEO-теги.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа № 3 и № 4 — Wudroow</title>
+    <meta name="description" content="Учебный сайт на GitHub Pages для выполнения практических работ по веб-мастерингу. Настроены robots.txt, sitemap.xml, JSON-LD и Open Graph.">
+
+    <!-- ПР №3: Подтверждение прав и ID студента -->
     <meta name="yandex-verification" content="60c1a26a162ab63f" />
-    <meta name="student-id" content="454-Выдрина">
+    <meta name="student-id" content="454-Выдрина" />
+
+    <!-- ПР №4: Canonical и Open Graph -->
+    <link rel="canonical" href="https://wudroow.github.io/webmasterlab/" />
+    <meta property="og:title" content="Практическая работа № 4 — wudroow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wudroow.github.io/webmasterlab/" />
+    <meta property="og:description" content="Учебный сайт с настроенной микроразметкой Schema.org и HTTP-заголовками." />
+    <meta property="og:image" content="https://wudroow.github.io/webmasterlab/logo.png" />
+
+    <!-- ПР №4: Микроразметка JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Учебный сайт Выдриной",
+      "url": "https://wudroow.github.io/webmasterlab/",
+      "logo": "https://wudroow.github.io/webmasterlab/logo.png"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Практическая работа №3 и №4",
+      "url": "https://wudroow.github.io/webmasterlab/"
+    }
+    </script>
 </head>
 <body>
     <h1>Привет! Это мой учебный сайт.</h1>
-    <p>Здесь я выполняю практическую работу №3.</p>
+    <p>Здесь я выполняю практическую работу №3 и №4.</p>
 </body>
 </html>
